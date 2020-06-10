@@ -20,6 +20,7 @@ This is an assigned solo project where I had to replicate/clone the <a href="">N
 
 ## Live Demo
 
+<a href="https://raw.githack.com/chelmerrox/Project-7-Using-Bootstrap/project-draft/index.html">Live demo</a>
 
 ## Author
 
