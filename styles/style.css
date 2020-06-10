@@ -48,3 +48,33 @@ nav {
 .nav-menu-icon {
   color: #e2dcdc;
 }
+
+/* Styles for main container */
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: max-content;
+}
+
+/* Styles for all sections */
+.sections {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* Styles for Section 1 - Top Story section */
+.background-image-container {
+  position: relative;
+}
+
+.background-image-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.mini-container {
+  position: absolute;
+  top: 334px;
+  width: 9%;
+}
