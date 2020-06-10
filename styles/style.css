@@ -62,12 +62,12 @@ main {
   padding-top: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   margin-bottom: 1rem;
 }
 
 /* Styles for Section 1 - Top Story section */
-.background-image-container {
+.background-image-container { /* For all background-images-container */
   position: relative;
 }
 
@@ -82,3 +82,14 @@ main {
   width: 9%;
 }
 
+
+/* Styles for Section 2 - Featured Stories section */
+.mini-container-2 {
+  position: absolute;
+  top: 365px;
+  width: 9%;
+}
+
+.section-2-subsections { /* For all subsections of section 2 - Featured Stories */
+  padding-bottom: 2rem;
+}
