@@ -55,6 +55,7 @@ main {
   height: 100%;
   margin: 0 auto;
   max-width: max-content;
+  padding-top: 3rem;
 }
 
 /* Styles for all sections */
