@@ -220,3 +220,24 @@ nav {
   background-color: rgb(255, 0, 0);
   padding: 0.7rem;
 }
+
+/* Styles for footer */
+.footer-newsweek-logo {
+  fill: rgb(255, 0, 0);
+  width: 230px;
+  height: 110px;
+}
+
+.facebook-logo,
+.twitter-logo,
+.instagram-logo,
+.tumblr-logo,
+.linkedin-logo {
+  fill: #666666;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footer-subsection-1 {
+  border-bottom: 0.05rem solid #cfcdcd;
+}
