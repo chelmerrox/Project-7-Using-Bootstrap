@@ -27,6 +27,28 @@ This is an assigned solo project where I had to replicate/clone the <a href="">N
 
 <a href="https://raw.githack.com/chelmerrox/Project-7-Using-Bootstrap/project-draft/index.html">Live demo</a>
 
+## Getting Started
+
+To get a local copy up and running follow the simple steps outlined below.
+
+## How To Use 🔧
+
+From your command line, do the folowing steps below:
+​
+1. Clone the projects' repository into your machine.
+
+```bash
+# Clone this repository
+$ git clone git@github.com:chelmerrox/Project-7-Using-Bootstrap.git
+
+```
+2. Change directory/Go into the repository with the command below.
+
+```bash
+$ cd Project-7-Using-Bootstrap
+
+```
+
 ## Author
 
 👤 **Losalini Rokocakau**
