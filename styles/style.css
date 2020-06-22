@@ -24,8 +24,8 @@ a {
   text-decoration: none;
 }
 
-/* Styles for navbar and its elements */
-nav {
+/* Styles for navbar 1 and navbar 2 and their elements */
+.navbar-1 {
   background-color: #f72210;
 }
 
@@ -47,6 +47,16 @@ nav {
 .nav-login-icon,
 .nav-menu-icon {
   color: #e2dcdc;
+}
+
+.search {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0.3rem;
+  right: 7.5rem;
 }
 
 /* Styles for main container */
