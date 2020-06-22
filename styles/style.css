@@ -44,6 +44,10 @@ a {
   border-radius: 20px;
 }
 
+.nav-subscribe-btn:hover {
+  color: #000000;
+}
+
 .nav-login-icon,
 .nav-menu-icon {
   color: #e2dcdc;
