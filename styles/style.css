@@ -129,3 +129,33 @@ nav {
 .sect-4-heading-1 {
   font-size: 1rem;
 }
+
+/* Styles for Section 5 */
+.section-5-subsections,
+.section-6-subsections,
+.section-7-subsections,
+.section-8-subsections,
+.section-9-subsections,
+.section-10-subsections {  /* Styles for subsections in Section 5, Section 6, Section 7, Section 8, Section 9 and Section 10 */
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  width: 100%;
+}
+
+.background-image-15 {
+  position: relative;
+}
+
+.mini-container-3 {
+  position: absolute;
+  top: 373px;
+  width: 12rem;
+  height: 2rem;
+}
+
+.section-5-subsections-one {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
