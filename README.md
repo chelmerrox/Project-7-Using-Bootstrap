@@ -6,10 +6,15 @@ This is an assigned solo project where I had to replicate/clone the <a href="">N
 
 ### Mobile Screen
 
+![screenshot](images/mobile_preview.PNG)
+
 ### Tablet Screen
+
+![screenshot](images/tablet_preview.PNG)
 
 ### Laptop Screen
 
+![screenshot](images/laptop_preview.PNG)
 
 ## Built With
 
