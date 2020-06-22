@@ -159,3 +159,21 @@ nav {
   padding-left: 7%;
   padding-right: 7%;
 }
+
+/* Styles for Section 9 */
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bg-light-grey {
+  background-color: #e7e2e2;
+}
+
+.email-2 {
+  margin-top: 0.5rem;
+} 
+
+.btn-1 {
+  background-color: rgb(255, 0, 0);
+}
