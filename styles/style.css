@@ -114,3 +114,18 @@ nav {
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 }
+
+/* Styles for Section 4 - Opinion section */
+.section-4-border-top, 
+.section-6-border-top { /* Styles for subsections in Section 4 and Section 6 */
+  border-top: 0.01rem solid #dbd8d8;
+}
+
+.section-4-subsections { 
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.sect-4-heading-1 {
+  font-size: 1rem;
+}
