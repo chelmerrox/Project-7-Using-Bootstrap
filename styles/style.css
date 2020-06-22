@@ -94,3 +94,25 @@ main {
 .section-2-subsections { /* For all subsections of section 2 - Featured Stories */
   padding-bottom: 2rem;
 }
+
+/* Styles for Section 3 - The Debate section */
+.flex-container-2 {
+  border-top: 0.3rem solid #f72210;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.border-line-1 {
+  border-top: 0.1rem solid #999999;
+}
+
+.border-line-2 {
+  margin-top: 0.1rem;
+  border-bottom: 0.1rem solid #999999;
+}
+
+.flex-container-3 {
+  border-bottom: 0.3rem solid #1c87fb;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
