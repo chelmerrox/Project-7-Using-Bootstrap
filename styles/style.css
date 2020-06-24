@@ -31,8 +31,6 @@ a {
 
 .nav-newsweek {
   fill: #ffffff;
-  /* width: 132px;
-  height: 20px; */
 }
 
 .nav-subscribe-btn {
@@ -63,14 +61,7 @@ a {
   right: 7.5rem;
 }
 
-/* Styles for main container */
-/* main {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  max-width: max-content;
-} */
-
+/* Styles for main container elements */
 /* Styles for all sections */
 .sections {
   padding-top: 1rem;
@@ -84,11 +75,6 @@ a {
 .background-image-container { /* For all background-images-container */
   position: relative;
 }
-
-/* .background-images { For images in sections 
-  width: 100%;
-  height: 100%;
-} */
 
 .mini-container-1 {
   position: absolute;
@@ -139,10 +125,6 @@ a {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
-
-/* .sect-4-heading-1 {
-  font-size: 1rem;
-} */
 
 /* Styles for Section 5 */
 .section-5-subsections,
@@ -210,11 +192,6 @@ a {
   position: relative;
   height: 30rem;
 }
-
-/* .subscribe-images {
-  position: absolute;
-  right: 700px;
-} */
 
 .subscribe-image-1 {
   position: absolute;
