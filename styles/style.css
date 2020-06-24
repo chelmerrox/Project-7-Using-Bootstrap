@@ -11,7 +11,7 @@ html {
   margin: 0;
   padding: 0;
 }
-  
+
 body {
   padding: 0;
   background-color: #fff;
@@ -30,11 +30,11 @@ a {
 }
 
 .nav-newsweek {
-  fill: #ffffff;
+  fill: #fff;
 }
 
 .nav-subscribe-btn {
-  color: #000000;
+  color: #000;
   font-weight: 800;
   font-size: 10px;
   background-color: rgb(240, 240, 8);
@@ -43,7 +43,7 @@ a {
 }
 
 .nav-subscribe-btn:hover {
-  color: #000000;
+  color: #000;
 }
 
 .nav-login-icon,
@@ -62,6 +62,7 @@ a {
 }
 
 /* Styles for main container elements */
+
 /* Styles for all sections */
 .sections {
   padding-top: 1rem;
@@ -101,12 +102,12 @@ a {
 }
 
 .border-line-1 {
-  border-top: 0.1rem solid #999999;
+  border-top: 0.1rem solid #999;
 }
 
 .border-line-2 {
   margin-top: 0.1rem;
-  border-bottom: 0.1rem solid #999999;
+  border-bottom: 0.1rem solid #999;
 }
 
 .flex-container-3 {
@@ -116,12 +117,12 @@ a {
 }
 
 /* Styles for Section 4 - Opinion section */
-.section-4-border-top, 
+.section-4-border-top,
 .section-6-border-top { /* Styles for subsections in Section 4 and Section 6 */
   border-top: 0.01rem solid #dbd8d8;
 }
 
-.section-4-subsections { 
+.section-4-subsections {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
@@ -168,7 +169,7 @@ a {
 
 .email-2 {
   margin-top: 0.5rem;
-} 
+}
 
 .btn-1 {
   background-color: rgb(255, 0, 0);
@@ -227,7 +228,7 @@ a {
 .instagram-logo,
 .tumblr-logo,
 .linkedin-logo {
-  fill: #666666;
+  fill: #666;
   width: 1.5rem;
   height: 1.5rem;
 }
