@@ -199,7 +199,10 @@ a {
 }
 
 .newsweek-logo-1 {
+  width: 40px;
   height: 37px;
+  fill: #fff;
+  background-color: rgb(255, 0, 0);
 }
 
 /* Styles for Section 12 */
