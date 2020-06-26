@@ -188,6 +188,14 @@ a {
   background-color: rgb(255, 0, 0);
 }
 
+.bg-red-2 {
+  background-color: rgb(255, 0, 0);
+}
+
+.text-red {
+  color: rgb(255, 0, 0);
+}
+
 /* Styles for Section 12 */
 .section-12 {
   position: relative;
