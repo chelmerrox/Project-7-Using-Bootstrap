@@ -204,27 +204,6 @@ a {
   height: 30rem;
 }
 
-.subscribe-images {
-  position: relative;
-}
-
-.subscribe-image-1 {
-  position: absolute;
-  left: 100px;
-  top: 48px;
-}
-
-.subscribe-image-2 {
-  position: absolute;
-  left: 160px;
-  top: 60px;
-}
-
-.subscribe-texts {
-  position: absolute;
-  top: 260px;
-}
-
 .btn-2 {
   background-color: rgb(255, 0, 0);
   padding: 0.7rem;
@@ -249,4 +228,82 @@ a {
 
 .footer-subsection-1 {
   border-bottom: 0.05rem solid #cfcdcd;
+}
+
+/* Extra small screen size */
+@media only screen and (max-width: 575px){
+  .subscribe-images {
+    position: relative;
+    left: 10px;
+  }
+  
+  .subscribe-image-1 {
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+  
+  .subscribe-image-2 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+  
+  .subscribe-texts {
+    position: absolute;
+    top: 260px;
+  }
+}
+
+/* Small screen size; sm; Mobile screen size */
+@media only screen and (max-width: 767px){
+  .subscribe-images {
+    position: relative;
+    left: 100px;
+  }
+  
+  .subscribe-image-1 {
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+  
+  .subscribe-image-2 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+  
+  .subscribe-texts {
+    position: absolute;
+    top: 260px;
+  }
+}
+
+/* Medium screen size; md; Tablet screen size */
+@media only screen and (min-width: 768px){
+  .section-12 {
+    padding-right: 20px;
+  }
+
+  .subscribe-container {
+    margin-left: 150px;
+  }
+
+  .subscribe-images {
+    position: relative;
+    right: 150px;
+  }
+  
+  .subscribe-image-1 {
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+  
+  .subscribe-image-2 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
 }
