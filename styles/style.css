@@ -231,18 +231,18 @@ a {
 }
 
 /* Extra small screen size */
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 575px) {
   /* Styles for navbar 1 */
   .navbar-1 {
     background-color: #f72210;
   }
-  
+
   .nav-newsweek {
     fill: #fff;
     width: 150px !important;
-    height:80px;
+    height: 80px;
   }
-  
+
   .nav-subscribe-btn {
     color: #000;
     font-weight: 800;
@@ -251,7 +251,7 @@ a {
     padding: 0.5rem;
     border-radius: 20px;
   }
-  
+
   .nav-subscribe-btn:hover {
     color: #000;
   }
@@ -261,19 +261,19 @@ a {
     position: relative;
     left: 10px;
   }
-  
+
   .subscribe-image-1 {
     position: absolute;
     left: 100px;
     top: 48px;
   }
-  
+
   .subscribe-image-2 {
     position: absolute;
     left: 160px;
     top: 60px;
   }
-  
+
   .subscribe-texts {
     position: absolute;
     top: 260px;
@@ -281,24 +281,24 @@ a {
 }
 
 /* Small screen size; sm; Mobile screen size */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   .subscribe-images {
     position: relative;
     left: 100px;
   }
-  
+
   .subscribe-image-1 {
     position: absolute;
     left: 100px;
     top: 48px;
   }
-  
+
   .subscribe-image-2 {
     position: absolute;
     left: 160px;
     top: 60px;
   }
-  
+
   .subscribe-texts {
     position: absolute;
     top: 260px;
@@ -306,7 +306,7 @@ a {
 }
 
 /* Medium screen size; md; Tablet screen size */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .section-12 {
     padding-right: 20px;
   }
@@ -319,13 +319,13 @@ a {
     position: relative;
     right: 150px;
   }
-  
+
   .subscribe-image-1 {
     position: absolute;
     left: 100px;
     top: 48px;
   }
-  
+
   .subscribe-image-2 {
     position: absolute;
     left: 160px;
