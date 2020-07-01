@@ -239,7 +239,7 @@ a {
 
   .nav-newsweek {
     fill: #fff;
-    width: 150px !important;
+    width: 100px !important;
     height: 80px;
   }
 
@@ -282,6 +282,13 @@ a {
 
 /* Small screen size; sm; Mobile screen size */
 @media only screen and (max-width: 767px) {
+  .nav-newsweek {
+    fill: #fff;
+    width: 110px !important;
+    height: 80px;
+  }
+  
+  /* Section 12 */
   .subscribe-images {
     position: relative;
     left: -50px;
@@ -320,6 +327,12 @@ a {
 
 /* Medium screen size; md; Tablet screen size */
 @media only screen and (min-width: 768px) {
+  .nav-newsweek {
+    fill: #fff;
+    width: 110px !important;
+    height: 80px;
+  }
+
   /* Section 12 */
   .section-12 {
     padding-right: 20px;
@@ -346,5 +359,13 @@ a {
     position: absolute;
     left: 160px;
     top: 60px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .nav-newsweek {
+    fill: #fff;
+    width: 250px !important;
+    height: 80px;
   }
 }
