@@ -287,7 +287,7 @@ a {
     width: 110px !important;
     height: 80px;
   }
-  
+
   /* Section 12 */
   .subscribe-images {
     position: relative;
@@ -362,7 +362,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
   .nav-newsweek {
     fill: #fff;
     width: 250px !important;
