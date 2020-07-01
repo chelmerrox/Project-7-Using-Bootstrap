@@ -320,6 +320,7 @@ a {
 
 /* Medium screen size; md; Tablet screen size */
 @media only screen and (min-width: 768px) {
+  /* Section 12 */
   .section-12 {
     padding-right: 20px;
     position: relative;
