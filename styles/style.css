@@ -284,7 +284,7 @@ a {
 @media only screen and (max-width: 767px) {
   .subscribe-images {
     position: relative;
-    left: 40px;
+    left: -50px;
   }
 
   .subscribe-image-1 {
