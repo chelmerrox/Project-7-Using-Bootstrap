@@ -230,6 +230,39 @@ a {
   border-bottom: 0.05rem solid #cfcdcd;
 }
 
+/* For screens smaller than 321px */
+/* @media only screen and (max-width: 320px){ */
+  /* Styles for navbar 1 */
+/*   .navbar-1 {
+    background-color: #f72210;
+  }
+
+  .nav-newsweek {
+    fill: #fff;
+    width: 150px !important;
+    height: 80px;
+  }
+
+  .nav-subscribe-btn {
+    color: #000;
+    font-weight: 800;
+    font-size: 10px;
+    background-color: rgb(240, 240, 8);
+    padding: 0.5rem;
+    border-radius: 20px;
+  }
+
+  .nav-subscribe-btn:hover {
+    color: #000;
+  } */  
+
+  /* Section 12 */
+/*   .subscribe-images {
+    position: relative !important;
+    right: 100px !important;
+  }
+} */
+
 /* Extra small screen size */
 @media only screen and (max-width: 575px) {
   /* Styles for navbar 1 */
@@ -284,7 +317,7 @@ a {
 @media only screen and (max-width: 767px) {
   .subscribe-images {
     position: relative;
-    left: 100px;
+    left: 40px;
   }
 
   .subscribe-image-1 {
@@ -302,6 +335,19 @@ a {
   .subscribe-texts {
     position: absolute;
     top: 260px;
+  }
+
+  /* Footer secttion */
+  .footer-links-1 {
+    font-size: 14px;
+  }
+
+  .footer-links-2 {
+    font-size: 11.5px;
+  }
+
+  .footer-links-3 {
+    font-size: 11.5px;
   }
 }
 
