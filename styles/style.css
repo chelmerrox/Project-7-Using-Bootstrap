@@ -53,7 +53,8 @@ a {
   color: #e2dcdc;
 }
 
-.search {
+.search
+.background-image-container { /* For all background-images container */
   position: relative;
 }
 
@@ -75,10 +76,6 @@ a {
 }
 
 /* Styles for Section 1 - Top Story section */
-.background-image-container { /* For all background-images-container */
-  position: relative;
-}
-
 .mini-container-1 {
   position: absolute;
   top: 334px;
