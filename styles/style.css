@@ -390,4 +390,12 @@ a {
     left: 160px;
     top: 60px;
   }
+
+  .subscribe-texts {
+    margin-left: 90px ;
+  }
+
+  .subscribe-btn {
+    position: absolute;
+  }
 }
