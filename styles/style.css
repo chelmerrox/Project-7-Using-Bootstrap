@@ -281,6 +281,12 @@ a {
     height: 80px;
   }
 
+  /* Section 4 */
+  .section-4-img {
+    width: 73px;
+    height: 80px;
+  }
+
   /* Section 12 */
   .subscribe-images {
     position: relative;
@@ -304,7 +310,7 @@ a {
     top: 260px;
   }
 
-  /* Footer secttion */
+  /* Footer section */
   .footer-links-1 {
     font-size: 14px;
   }
