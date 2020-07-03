@@ -7,12 +7,1564 @@
     <!--Link to BootStrap minified Stylesheet file-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
     <link href="styles/style.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <title>Project 7 - Using Bootstrap</title>
   </head>
     
-  <body>
-    
+  <body>  
+    <!--Navbar 1-->
+    <nav class="navbar d-flex flex-row justify-content-between sticky-top navbar-1 p-4">
+      <div class="d-none d-lg-block ml-4">
+        <div class="d-inline-flex">
+          <i class="material-icons text-white">wb_cloudy</i>
+          <p class="text-white font-weight-bold">&nbsp;&nbsp;24° Suva, FJ ></p>
+        </div>
 
+        <div>
+          <p class="text-white font-weight-bold">Tue, Jun 16, 2020</p>
+        </div>
+      </div>
+
+      <div class="flex-item-1-2">
+        <!--Newsweek title-->
+        <svg class="nav-newsweek w-100 h-100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+          <g>
+            <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">    
+            </path>
+        </g>
+        </svg>
+      </div>
+
+      <div class="flex-item-1-3 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-row">
+        <a href="#" class="text-uppercase text-light font-weight-bolder d-none d-md-inline mr-md-3 mr-lg-3 mr-xl-3">login</a>
+        <a href="#" class="nav-subscribe-btn text-decoration-none mr-sm-2 mr-md-3 mr-lg-3 mr-xl-3">SUBSCRIBE ></a>
+        <i class="material-icons nav-menu-icon d-lg-none">menu</i>     
+     </div>
+    </nav>
+
+    <!--Navbar 2-->
+    <nav class="d-none d-lg-flex justify-content-lg-between shadow-sm p-2">
+      <a href="#" class="text-uppercase text-dark text-decoration-none font-weight-bold">u.s</a>       
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">world</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">business</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">tech &amp; science</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">culture</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">newsgeek</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">sport</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">newsgeek</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">sport</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">health</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">the debate</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">vantage</a>
+      <a href="#" class="text-capitalize text-dark text-decoration-none font-weight-bold">weather</a>
+      <form action="/submit" method="get" name="form-1" class="search pl-3">
+        <input type="text" name="search-1" placeholder="Search" class="text-muted ml-1 pt-1 pb-1 pl-1 border-0">
+        <i class="material-icons search-icon text-secondary mr-n4">search</i>
+      </form>
+    </nav>
+
+    <main class="main-container container-fluid">
+      <!--Sections 1 & 2-->
+      <div class="row">
+        <!--Section 1 - Top Story section-->
+        <section class="mt-2 col-md-6 order-md-2 col-lg-4">
+          <h6 class="text-uppercase text-muted font-weight-bold">top story</h6>
+          
+          <div class="background-image-container">
+            <img src="images/image-1.jpg" alt="Image 1" class="background-images background-image-1 w-100 h-100 img-fluid"/>
+          </div>
+          
+          <h5 class="font-weight-bold text-capitalize pt-1">derek chauvin was 'afraid' of black People, nightclub coworkers say</h5>
+          <p>An employee of the El Nuevo Rodeo club has described tensions between the pair when they worked together.</p>
+
+          <div class="row order-md-1 w-100 d-sm-none d-md-block">
+            <!--Sections 6,7 & 8-->
+            <div class="col-md-11 container-fluid w-100 h-100">
+              <div class="row">
+                <!--Section 6 - More stories section-->
+                <section class="row-md-4 order-md-9 d-none d-sm-none d-md-block">
+                  <h6 class="text-uppercase text-muted font-weight-bold pl-1">more stories</h6>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-20.jpg" alt="Image 20" class="background-image-20"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">'bye-bye tucker carlson!' says t-mobile cEO as major advertisers cut ties</h6>
+                        <p class="text-muted small text-justify">Disney, T-Mobile, and Papa Johns are among the companies that have pulled their adevertisements from the Fox News program, "Tucker Carlson Tonight."</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-21.jpg" alt="Image 21" class="background-image-2"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">instagram influencers are using black lives matter for self-promotion</h6>
+                        <p class="text-muted small text-justify">George Resch, the man behind the social media brand "Influencers In The Wild", spoke out this week after some people seen in his viral videos were faces with abuse and death threats.</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-22.jpg" alt="Image 22" class="background-image-22"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">protester's head cut open by toppled confederate soldier statue</h6>
+                        <p class="text-muted small text-justify">The man convulsed on the ground and lost a "great amount of blood" after being struck by the monument, according to a witness.</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-23.jpg" alt="Image 23" class="background-image-23"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">betsy DeVos sued by groups representing student sexual violence victims</h6>
+                        <p class="text-muted small text-justify">The legal challenge backed by four groups representing student survivors of sexual assaults claims the changes violate the Constitution.</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-24.jpg" alt="Image 24" class="background-image-24"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">coronavirus has 'substantially worsened mental health', IFS says</h6>
+                        <p class="text-muted small text-justify">7.2 million people aged 16 and over  have reportes experiencing a mental health problem "much more than usual".</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-25.jpg" alt="Image 25" class="background-image-25"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">COVID-19 symptoms can last for weeks even in mild cases: preliminary</h6>
+                        <p class="text-muted small text-justify">"This is not a disease that simply just 'goes away,'" Dr.Joshua Barocas of Boston University School of Medicine told Newsweek.</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-26.jpg" alt="Image 26" class="background-image-26"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">ohio state senator asks if 'colored population' more prone to coronavirus</h6>
+                        <p class="text-muted small text-justify">Those present at the health comittee meeting reportedly cringes at the comments by Ohio Sen. Steve Huffman, who is also a doctor.</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-27.jpg" alt="Image 27" class="background-image-27"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">CJ McCollum calls trump a 'sick man' for planning rally in tulsa</h6>
+                        <p class="text-muted small text-justify">On June 19, the President will hold a rally in Tulsa, Oklahoma, the site of one of the worst incidents of racial violence in U.S. history.</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-28.jpg" alt="Image 28" class="background-image-28"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">prince harry links COVID-19 to exploitation of nature, warns of extinction</h6>
+                        <p class="text-muted small text-justify">The Duke of Sussex says baby Archie drives his fight to stop the "extinction crisis" as he warns coronavirus may be linked to "explitation of nature".</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-29.jpg" alt="Image 29" class="background-image-29"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">seattle mayor tells trump 'go back to your bunker' after protest criticism</h6>
+                        <p class="text-muted small text-justify">The president has criticized the situation in the city, stating he could intervene amid ongoing protests.</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                      <div class="pr-2">
+                        <img src="images/image-30.jpg" alt="Image 30" class="background-image-30"/>
+                      </div>
+
+                      <div class="flex-item-6-2">
+                        <h6 class="font-weight-bold text-capitalize sect-4-heading-1">'cops' cancelled: TV show has been accused of racism since it first aired</h6>
+                        <p class="text-muted small text-justify">"Cops" cancellations comes amid calls for another unscripted police series. "Live PD," to be pulled off the air.</p>
+                      </div>
+                    </div>
+                </section>
+
+                <!--Section 7 - My Turn section-->
+                <section class="row-md-4 order-md-1 container d-none d-sm-none d-md-block">
+                  <h6 class="text-uppercase text-muted font-weight-bold row pl-3">my turn</h6> 
+
+                  <div class="row">
+                    <!--Section 7.1-->
+                    <div class="section-7-subsections col-md-4">
+                      <div class="background-image-container">
+                        <img src="images/image-31.jpg" alt="Image 31" class="background-images background-image-31 w-100 h-100"/>
+                      </div>
+                    
+                      <div class="d-flex pt-2">
+                        <h6 class="text-capitalize text-muted font-weight-bold">"i'm protesting as spider-man for the black lives matter movement"</h6>
+                      </div>
+                    </div>
+
+                    <!--Section 7.2-->
+                    <div class="section-7-subsections col-md-4">
+                      <div class="background-image-container">
+                        <img src="images/image-32.jpg" alt="Image 32" class="background-images background-image-32 w-100 h-100"/>
+                      </div>
+                    
+                      <div class="d-flex">
+                        <h6 class="text-capitalize text-muted font-weight-bold pt-2">"we lost our parents in the 2004 tsunami'</h6>
+                      </div>
+                    </div>
+
+                    <!--Section 7.3-->
+                    <div class="section-7-subsections col-md-4">
+                      <div class="background-image-container">
+                        <img src="images/image-33.png" alt="Image 33" class="background-images background-image-33 w-100 h-100"/>
+                      </div>
+                    
+                      <div class="d-flex">
+                        <h6 class="text-capitalize text-muted font-weight-bold pt-2">"i was bullied about my appearance, now i'm a meghan markle look-alike'</h6>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <!--Section 8 - Culture & Travel section-->
+                <section class="row-md-4 order-md-2 container d-none d-sm-none d-md-block">
+                  <h6 class="text-uppercase text-muted font-weight-bold row pl-3">culture &amp; travel</h6>
+
+                  <div class="row">
+                    <div class="section-8-subsections col-md-4">
+                      <div class="background-image-container">
+                        <img src="images/image-34.png" alt="Image 34" class="background-images background-image-34 w-100 h-100"/>
+                      </div>
+                    
+                      <div class="d-flex pt-2">
+                        <h6 class="text-capitalize text-muted font-weight-bold">a resource guide to educate yourself about racial injustice in america</h6>
+                      </div>
+                    </div>
+
+                    <div class="section-8-subsections col-md-4">
+                      <div class="background-image-container">
+                        <img src="images/image-35.jpg" alt="Image 35" class="background-images background-image-35 w-100 h-100"/>
+                      </div>
+                    
+                      <div class="d-flex pt-2">
+                        <h6 class="text-capitalize text-muted font-weight-bold">willie mays explains why the all-star meant so much to his generation</h6>
+                      </div>
+                    </div>
+
+                    <div class="section-8-subsections col-md-4">
+                      <div class="background-image-container">
+                        <img src="images/image-36.jpg" alt="Image 36" class="background-images background-image-36 w-100 h-100"/>
+                      </div>
+                    
+                      <div class="d-flex pt-2">
+                        <h6 class="text-capitalize text-muted font-weight-bold">23 black-owned wineries worth supporting right now</h6>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!--Section 2 - Featured Stories section-->
+        <div class="mt-2 col-md-6 order-md-1 col-lg-4">
+          <section class="section-2-subsections section-2-1">
+            <h6 class="text-uppercase text-muted font-weight-bold">featured stories</h6>
+            
+            <div class="background-image-container">
+              <img src="images/image-2.jpg" alt="Image 2" class="background-images background-image-2 w-100 h-100"/>
+            </div>
+          
+            <h5 class="font-weight-bold text-capitalize pt-1">third of americans say they won't get a COVID-19 vaccine</h5>
+            <p>Over 100 potential COVID-19 vaccines are currently under development.</p>
+          </section>
+
+          <div class="section-2-subsections section-2-2">
+            <div class="background-image-container">
+              <img src="images/image-3.jpg" alt="Image 3" class="background-images background-image-3 w-100 h-100"/>
+            </div>
+            
+            <h5 class="font-weight-bold text-capitalize pt-1">18 million lack enough health insurance, more at risk to coronavirus, study</h5>
+            <p>Minorities and low-income individuals are disproportionately uninsured or underinsures, while simultaneously being significantly more at risk of developing severe cases of COVID-19</p>
+          </div>
+
+          <div class="section-2-subsections section-2-3">
+            <div class="background-image-container">
+              <img src="images/image-4.jpg" alt="Image 4" class="background-images background-image-4 w-100 h-100"/>
+            </div>
+          
+            <h5 class="font-weight-bold text-capitalize pt-1">looter exploited protests. now, black-owned businesses pick up the pieces</h5>
+            <p>"Who knows if I will ever get things back inorder?" said Chanel Hawk, the owner of RCR Luxury Boutique.</p>
+          </div>
+
+          <div class="section-2-subsections section-2-4">
+            <div class="background-image-container">
+              <img src="images/image-5.jpg" alt="Image 5" class="background-images background-image-5 w-100 h-100"/>
+            </div>
+        
+            <h5 class="font-weight-bold text-capitalize pt-1">trump's disapproval rating hits highest level since impeachment peak</h5>
+            <p>An approval rating tracker found almost 55 percent of voters disapproved of the president's record in the Oval office</p>
+          </div>
+
+          <div class="section-2-subsections section-2-5">
+            <div class="background-image-container">
+              <img src="images/image-6.jpg" alt="Image 6" class="background-images background-image-6 w-100 h-100"/>
+            </div>
+        
+            <h5 class="font-weight-bold text-capitalize pt-1">face masks could reduce coronavirus r number and prevent 2nd wave</h5>
+            <p>Richard Stutt of Cambridge University said the widespread use of face masks combined with physical distancing and minor lockdowns may help to manage the pandemic and re-open economic activity.</p>
+          </div>
+
+          <!--Section 5-->
+          <div class="col-md-11 d-none d-sm-none d-md-block">
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image_15.jpg" alt="Image 15" class="background-images background-image-15 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h4 class="font-weight-bold text-md-center">Looking for a Powerful, Lightweight and Long-lasting Cordless Vacuum?</h4>
+                <p class="text-muted small text-justify">Roborock H6, 2020 Red Dot-Award Winner, Ultra-Long lasting LiPo battery, available now on Amazon.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-16.png" alt="Image 16" class="background-images background-image-16 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h4 class="font-weight-bold text-md-center">Want to Learn to Code Online?</h4>
+                <p class="text-muted small text-justify">If you are thinking about changing career or you have recently lost your job, this might be the time to think about a career in coding.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-17.jpg" alt="Image 17" class="background-images background-image-17 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h4 class="font-weight-bold text-capitalize text-md-center">What is an IB Private Education and Why is it so Important?</h4>
+                <p class="text-muted small text-justify">The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-18.png" alt="Image 18" class="background-images background-image-18 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h4 class="font-weight-bold text-md-center">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</h4>
+                <p class="text-muted small text-justify">Newsweek AMPLIFY, the company's performance marketing business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-19.jpg" alt="Image 19" class="background-images background-image-19 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h4 class="font-weight-bold text-capitalize text-md-center">18 million lack enough health insurance, more at risk to coronavirus, study</h4>
+                <p class="text-muted small text-justify">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking
+                  of Best Physical Rehabilitation Centers in the United States 2020. If you work in this field, please participate in our survey.</p>
+              </div>
+            </div>
+          </div>
+        </div>   
+
+        <!--Section 3, 4 & 9-->
+        <div class=" mt-2 order-md-2 w-100 h-100 d-none d-sm-none d-md-none d-lg-block col-lg-4">
+          <!--Section 3 - The Debate section-->
+          <section class="section-3">
+            <h6 class="text-uppercase text-muted font-weight-bold">the debate</h6>
+            
+            <div class="d-flex flex-row justify-content-start flex-container-2">
+              <div class="flex-item-2-1">
+                <img src="images/image-7.png" alt="Image 7" class="background-images background-image-7 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h6 class="font-weight-bold text-capitalize">governor's can't pick and choose constitutional rights</h6>
+                <h6 class="text-uppercase small">by <span class="font-weight-bold">eugene kontorovich</span></h6>
+              </div>
+            </div>
+
+            <div class="border-line-1"></div>
+            <div class="border-line-2"></div>
+
+            <div class="d-flex flex-row justify-content-between flex-container-3">
+              <div class="flex-item-3-1">
+                <h6 class="font-weight-bold text-capitalize">pandemic constitutional rights: not an all-or-nothing proposition</h6>
+                <h6 class="text-uppercase small">by <span class="font-weight-bold">michelle goodwin</span></h6>
+              </div>
+              
+              <div class="flex-item-3-2">
+                <img src="images/image-8.png" alt="Image 8" class="background-images background-image-8 img-fluid"/>
+              </div>  
+          </div>
+          </section>
+
+          <!--Section 4 - Opinion section-->
+          <section class="section-4">
+            <h6 class="text-uppercase text-muted font-weight-bold pt-2">opinion</h6>
+
+            <div class="d-flex flex-row justify-content-start section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-9.png" alt="Image 9" class="background-images background-image-9 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2 section-4-subsections mt-n2">
+                <h6 class="font-weight-bold text-capitalize sect-4-heading-1">the government is arming police for war. reform can start right there</h6>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by hank johnson and michael shank</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-10.png" alt="Image 10" class="background-images background-image-10 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2 mt-1">
+                <h6 class="font-weight-bold text-capitalize sect-4-heading-1">democrats reveal their partisan hypocrisy on biden and kavanaugh</h6>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by mike davis</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-11.png" alt="Image 11" class="background-images background-image-11 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h6 class="font-weight-bold text-capitalize sect-4-heading-1">i prosecuted police killings. defund the police-but be strategic</h6>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by kristen clarke</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-12.png" alt="Image 12" class="background-images background-image-12 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2">
+                <h6 class="font-weight-bold text-capitalize sect-4-heading-1">we should not be surprised by israeli annexation</h6>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by aaron david miller</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-13.png" alt="Image 13" class="background-images background-image-13 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2">
+                <h6 class="font-weight-bold text-capitalize sect-4-heading-1">j.k rowling's inability to see trans people is a failure of imagination</h6>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by zeke smith</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-14.png" alt="Image 14" class="background-images background-image-14 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2">
+                <h6 class="font-weight-bold text-capitalize sect-4-heading-1">how advertising can turbochange consumer confidence as america reopens</h6>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by peter ferrera</h6>
+              </div>
+            </div>
+          </section>
+
+          <!--Section 9-->
+          <div class="row order-md-3 d-none d-sm-none d-md-none d-lg-block px-5 pb-5">
+            <div class="container border border-secondary bg-light-grey px-0">
+              <div class="row px-5 d-flex justify-content-center">
+                <svg class="newsweek-logo-1 col-lg-4" enable-background="new 0 0 29 28" version="1.1" viewBox="0 0 29 28" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon class="st0" points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6"/>
+                </svg>
+                <p class="col-lg-8 text-uppercase font-weight-bold">start your day with our <span class="d-sm-block">top 5 articles</span></p>
+              </div>
+
+              <form action="/submit" method="post" name="form-2" class="px-4">
+                <input type="text" name="email-2" placeholder="Email address" class="border border-secondary text-muted email-1 form-control form-control-sm"/><br>
+                <input type="button" name="button-2" value="FREE SIGN UP >" class="text-light btn-1 border-0 font-weight-bold py-2 px-5 w-100"/>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Sections 3,4,5,6,7 & 8-->
+      <div class="row">
+        <!--Section 3 & 4-->
+        <div class="order-md-2 w-100 h-100 d-lg-none">
+          <!--Section 3 - The Debate section-->
+          <section class="px-3 py-3 section-3">
+            <h6 class="text-uppercase text-muted font-weight-bold">the debate</h6>
+            
+            <div class="d-flex flex-row justify-content-start flex-container-2">
+              <div class="flex-item-2-1">
+                <img src="images/image-7.png" alt="Image 7" class="background-images background-image-7 img-fluid"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h5 class="font-weight-bold text-capitalize">governor's can't pick and choose constitutional rights</h5>
+                <h6 class="text-uppercase small">by <span class="font-weight-bold">eugene kontorovich</span></h6>
+              </div>
+            </div>
+
+            <div class="border-line-1"></div>
+            <div class="border-line-2"></div>
+
+            <div class="d-flex flex-row justify-content-between flex-container-3">
+              <div class="flex-item-3-1">
+                <h5 class="font-weight-bold text-capitalize">pandemic sonstitutional rights: not an all-or-nothing proposition</h5>
+                <h6 class="text-uppercase small">by <span class="font-weight-bold">michelle goodwin</span></h6>
+              </div>
+              
+              <div class="flex-item-3-2">
+                <img src="images/image-8.png" alt="Image 8" class="background-images background-image-8 img-fluid"/>
+              </div>  
+            </div>
+          </section>
+
+          <!--Section 4 - Opinion section-->
+          <section class="px-3 py-3 section-4">
+            <h6 class="text-uppercase text-muted font-weight-bold">opinion</h6>
+
+            <div class="d-flex flex-row justify-content-start section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-9.png" alt="Image 9" class="background-images background-image-9 section-4-img"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center section-4-subsections">
+                <h5 class="font-weight-bold text-capitalize sect-4-heading-1">the government is arming police for war. reform can start right there</h5>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by hank johnson and michael shank</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-10.png" alt="Image 10" class="background-images background-image-10 section-4-img"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h5 class="font-weight-bold text-capitalize sect-4-heading-1">democrats reveal their partisan hypocrisy on biden and kavanaugh</h5>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by mike davis</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-11.png" alt="Image 11" class="background-images background-image-11 section-4-img"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h5 class="font-weight-bold text-capitalize sect-4-heading-1">i prosecuted police killings. defund the police-but be strategic</h5>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by kristen clarke</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-12.png" alt="Image 12" class="background-images background-image-12 section-4-img"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h5 class="font-weight-bold text-capitalize sect-4-heading-1">we should not be surprised by israeli annexation</h5>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by aaron david miller</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-13.png" alt="Image 13" class="background-images background-image-13 section-4-img"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h5 class="font-weight-bold text-capitalize sect-4-heading-1">j.k rowling's inability to see trans people is a failure of imagination</h5>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by zeke smith</h6>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-start section-4-border-top section-4-subsections">
+              <div class="pr-2">
+                <img src="images/image-14.png" alt="Image 14" class="background-images background-image-14 section-4-img"/>
+              </div>  
+              
+              <div class="flex-item-2-2 align-content-center">
+                <h5 class="font-weight-bold text-capitalize sect-4-heading-1">how advertising can turbochange consumer confidence as america reopens</h5>
+                <h6 class="text-uppercase text-muted font-weight-bold small">by peter ferrera</h6>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--Section 5,6,7 & 8-->
+        <div class="px-3 row order-md-1">
+          <!--Section 5-->
+          <div class="col-md-6 d-md-none">
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image_15.jpg" alt="Image 15" class="background-images background-image-15 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h5 class="font-weight-bold text-md-center">Looking for a Powerful, Lightweight and Long-lasting Cordless Vacuum?</h5>
+                <p class="text-muted small text-justify">Roborock H6, 2020 Red Dot-Award Winner, Ultra-Long lasting LiPo battery, available now on Amazon.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-16.png" alt="Image 16" class="background-images background-image-16 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h5 class="font-weight-bold text-md-center">Want to Learn to Code Online?</h5>
+                <p class="text-muted small text-justify">If you are thinking about changing career or you have recently lost your job, this might be the time to think about a career in coding.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-17.jpg" alt="Image 17" class="background-images background-image-17 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h5 class="font-weight-bold text-capitalize text-md-center">What is an IB Private Education and Why is it so Important?</h5>
+                <p class="text-muted small text-justify">The aim of the IB is to offer the best possible international education for students of all backgrounds and from every part of the world. Find out more.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-18.png" alt="Image 18" class="background-images background-image-18 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h5 class="font-weight-bold text-md-center">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</h5>
+                <p class="text-muted small text-justify">Newsweek AMPLIFY, the company's performance marketing business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p>
+              </div>
+            </div>
+
+            <div class="section-5-subsections">
+              <div class="background-image-container">
+                <img src="images/image-19.jpg" alt="Image 19" class="background-images background-image-19 w-100 h-100"/>
+              </div>
+            
+              <div class="d-flex flex-column align-content-center border border-secondary section-5-subsections-one">
+                <h5 class="font-weight-bold text-capitalize text-md-center">18 million lack enough health insurance, more at risk to coronavirus, study</h5>
+                <p class="text-muted small text-justify">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking
+                  of Best Physical Rehabilitation Centers in the United States 2020. If you work in this field, please participate in our survey.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Sections 6,7 & 8-->
+          <div class="col-md-6 container-fluid d-md-none">
+            <div class="row">
+              <!--Section 6 - More stories section-->
+              <section class="px-3 py-3 row-md-4 order-md-9">
+                <h6 class="text-uppercase text-muted font-weight-bold">more stories</h6>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-20.jpg" alt="Image 20" class="background-image-20"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">'bye-bye tucker carlson!' says t-mobile cEO as major advertisers cut ties</h6>
+                      <p class="text-muted small text-justify">Disney, T-Mobile, and Papa Johns are among the companies that have pulled their adevertisements from the Fox News program, "Tucker Carlson Tonight."</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-21.jpg" alt="Image 21" class="background-image-2"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">instagram influencers are using black lives matter for self-promotion</h6>
+                      <p class="text-muted small text-justify">George Resch, the man behind the social media brand "Influencers In The Wild", spoke out this week after some people seen in his viral videos were faces with abuse and death threats.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-22.jpg" alt="Image 22" class="background-image-22"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">protester's head cut open by toppled confederate soldier statue</h6>
+                      <p class="text-muted small text-justify">The man convulsed on the ground and lost a "great amount of blood" after being struck by the monument, according to a witness.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-23.jpg" alt="Image 23" class="background-image-23"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">betsy DeVos sued by groups representing student sexual violence victims</h6>
+                      <p class="text-muted small text-justify">The legal challenge backed by four groups representing student survivors of sexual assaults claims the changes violate the Constitution.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-24.jpg" alt="Image 24" class="background-image-24"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">coronavirus has 'substantially worsened mental health', IFS says</h6>
+                      <p class="text-muted small text-justify">7.2 million people aged 16 and over  have reportes experiencing a mental health problem "much more than usual".</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-25.jpg" alt="Image 25" class="background-image-25"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">COVID-19 symptoms can last for weeks even in mild cases: preliminary</h6>
+                      <p class="text-muted small text-justify">"This is not a disease that simply just 'goes away,'" Dr.Joshua Barocas of Boston University School of Medicine told Newsweek.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-26.jpg" alt="Image 26" class="background-image-26"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">ohio state senator asks if 'colored population' more prone to coronavirus</h6>
+                      <p class="text-muted small text-justify">Those present at the health comittee meeting reportedly cringes at the comments by Ohio Sen. Steve Huffman, who is also a doctor.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-27.jpg" alt="Image 27" class="background-image-27"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">CJ McCollum calls trump a 'sick man' for planning rally in tulsa</h6>
+                      <p class="text-muted small text-justify">On June 19, the President will hold a rally in Tulsa, Oklahoma, the site of one of the worst incidents of racial violence in U.S. history.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-28.jpg" alt="Image 28" class="background-image-28"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">prince harry links COVID-19 to exploitation of nature, warns of extinction</h6>
+                      <p class="text-muted small text-justify">The Duke of Sussex says baby Archie drives his fight to stop the "extinction crisis" as he warns coronavirus may be linked to "explitation of nature".</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-29.jpg" alt="Image 29" class="background-image-29"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">seattle mayor tells trump 'go back to your bunker' after protest criticism</h6>
+                      <p class="text-muted small text-justify">The president has criticized the situation in the city, stating he could intervene amid ongoing protests.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row section-6-subsections section-6-border-top">
+                    <div class="pr-2">
+                      <img src="images/image-30.jpg" alt="Image 30" class="background-image-30"/>
+                    </div>
+
+                    <div class="flex-item-6-2">
+                      <h6 class="font-weight-bold text-capitalize sect-4-heading-1">'cops' cancelled: TV show has been accused of racism since it first aired</h6>
+                      <p class="text-muted small text-justify">"Cops" cancellations comes amid calls for another unscripted police series. "Live PD," to be pulled off the air.</p>
+                    </div>
+                  </div>
+              </section>
+
+              <!--Section 7 - My Turn section-->
+              <section class="px-3 py-3 row-md-4 order-md-1 container-fluid">
+                <h6 class="text-uppercase text-muted font-weight-bold row pl-3">my turn</h6> 
+
+                <div class="row">
+                  <!--Section 7.1-->
+                  <div class="section-7-subsections col-md-4">
+                    <div class="background-image-container">
+                      <img src="images/image-31.jpg" alt="Image 31" class="background-images background-image-31 w-100 h-100"/>
+                    </div>
+                  
+                    <div class="d-flex flex-column align-content-center pt-2">
+                      <h6 class="text-capitalize text-muted font-weight-bold">"i'm protesting as spider-man for the black lives matter movement"</h6>
+                    </div>
+                  </div>
+
+                  <!--Section 7.2-->
+                  <div class="section-7-subsections col-md-4">
+                    <div class="background-image-container">
+                      <img src="images/image-32.jpg" alt="Image 32" class="background-images background-image-32 w-100 h-100"/>
+                    </div>
+                  
+                    <div class="d-flex flex-column align-content-center">
+                      <h6 class="text-capitalize text-muted font-weight-bold pt-2">"we lost our parents in the 2004 tsunami'</h6>
+                    </div>
+                  </div>
+
+                  <!--Section 7.3-->
+                  <div class="section-7-subsections col-md-4">
+                    <div class="background-image-container">
+                      <img src="images/image-33.png" alt="Image 33" class="background-images background-image-33 w-100 h-100"/>
+                    </div>
+                  
+                    <div class="d-flex flex-column align-content-center">
+                      <h6 class="text-capitalize text-muted font-weight-bold pt-2">"i was bullied about my appearance, now i'm a meghan markle look-alike'</h6>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!--Section 8 - Culture & Travel section-->
+              <section class="px-3 py-3 row-md-4 order-md-2 container-fluid">
+                <h6 class="text-uppercase text-muted font-weight-bold row pl-3">culture &amp; travel</h6>
+
+                <div class="row">
+                  <div class="section-8-subsections col-md-4">
+                    <div class="background-image-container">
+                      <img src="images/image-34.png" alt="Image 34" class="background-images background-image-34 w-100 h-100"/>
+                    </div>
+                  
+                    <div class="d-flex flex-column align-content-center pt-2">
+                      <h6 class="text-capitalize text-muted font-weight-bold">a resource guide to educate yourself about racial injustice in america</h6>
+                    </div>
+                  </div>
+
+                  <div class="section-8-subsections col-md-4">
+                    <div class="background-image-container">
+                      <img src="images/image-35.jpg" alt="Image 35" class="background-images background-image-35 w-100 h-100"/>
+                    </div>
+                  
+                    <div class="d-flex flex-column align-content-center pt-2">
+                      <h6 class="text-capitalize text-muted font-weight-bold">willie mays explains why the all-star meant so much to his generation</h6>
+                    </div>
+                  </div>
+
+                  <div class="section-8-subsections col-md-4">
+                    <div class="background-image-container">
+                      <img src="images/image-36.jpg" alt="Image 36" class="background-images background-image-36 w-100 h-100"/>
+                    </div>
+                  
+                    <div class="d-flex flex-column align-content-center pt-2">
+                      <h6 class="text-capitalize text-muted font-weight-bold">23 black-owned wineries worth supporting right now</h6>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Section 9-->
+      <div class="px-3 py-3 row order-md-3 d-lg-none">
+        <div class="container border border-secondary bg-light-grey">
+          <div class="row px-3">
+            <div class="col-2 col-sm-2">
+              <svg class="newsweek-logo-1" enable-background="new 0 0 29 28" version="1.1" viewBox="0 0 29 28" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <polygon class="st0" points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6"/>
+              </svg>
+            </div>
+            <p class="col-10 col-sm-10 text-uppercase font-weight-bold">start your day with our <span class="d-sm-block">top 5 articles</span></p>
+          </div>
+
+          <form action="/submit" method="post" name="form-2">
+            <input type="text" name="email-2" placeholder="Email address" class="border border-secondary text-muted email-1 form-control form-control-sm"/><br>
+            <input type="button" name="button-2" value="FREE SIGN UP >" class="text-light btn-1 border-0 font-weight-bold py-2 px-5 w-100"/>
+          </form>
+        </div>
+      </div>
+
+      <!--Section 10 - In the magazine section-->
+      <div class="row py-5">
+        <div class="col-sm-12 d-flex justify-content-center border border-left-0 border-top-0 border-right-0 border-secondary py-3">
+          <!--Newsweek logo 1-->
+          <div class="col-1 col-sm-1 col-md-1 col-lg-1 mr-5 mr-sm-4">
+            <svg class="newsweek-logo-1 mr-2" enable-background="new 0 0 29 28" version="1.1" viewBox="0 0 29 28" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <polygon class="st0" points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6"/>
+            </svg>
+          </div>
+          <h4 class="text-uppercase font-weight-bold">in the magazine</h4>
+        </div>  
+
+        <div class="col-md-12 container-fluid pt-1">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3 card pt-md-3 border-0">
+              <img src="images/image-41.jpg" alt="Image 41" class="card-img-top w-100"/>
+              <div class="card-body px-0 pt-2">
+                <h6 class="card-title text-center text-uppercase font-weight-bold">see all features ></h6>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3 py-4">
+              <img src="images/image-42.jpg" alt="Image 42" class="card-img-top w-100"/>
+              <div class="d-flex justify-content-start py-2">
+                <p class="text-uppercase bg-red text-white font-weight-bold mr-2">cover</p>
+                <p class="text-uppercase text-red font-weight-bold">world</p>
+              </div>
+              <p class="text-capitalize font-weight-bold">on tiananmen anniversary, hong kong protesters brace for chinese crackdown</p>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3 py-4">
+              <img src="images/image-43.jpg" alt="Image 43" class="card-img-top w-100"/>
+              <div class="d-flex justify-content-start py-2">
+                <p class="text-uppercase bg-red text-white font-weight-bold mr-2">cover</p>
+                <p class="text-uppercase text-red font-weight-bold">world</p>
+              </div>
+              <p class="text-capitalize font-weight-bold">i'm eric garner's mom. four cops must be convicted in george floyd's death</p>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3 py-4">
+              <img src="images/image-44.jpg" alt="Image 44" class="card-img-top w-100"/>
+              <div class="d-flex justify-content-start py-2">
+                <p class="text-uppercase bg-red text-white font-weight-bold mr-2">cover</p>
+                <p class="text-uppercase text-red font-weight-bold">world</p>
+              </div>
+              <p class="text-capitalize font-weight-bold">'i've had to paint 'black owned business' on my bar during the riots'</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3 card py-md-0 border-0">
+              <img src="images/image-45.jpg" alt="Image 41" class="card-img-top w-100"/>
+              <div class="d-flex justify-content-start py-2">
+                <p class="text-uppercase bg-red text-white font-weight-bold mr-2">cover</p>
+                <p class="text-uppercase text-red font-weight-bold">world</p>
+              </div>
+              <p class="text-capitalize font-weight-bold">'i'm a blue lives matter activist, we've defended those now breaking laws'</p>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="images/image-46.jpg" alt="Image 42" class="card-img-top w-100"/>
+              <div class="d-flex justify-content-start py-2">
+                <p class="text-uppercase bg-red text-white font-weight-bold mr-2">cover</p>
+                <p class="text-uppercase text-red font-weight-bold">world</p>
+              </div>
+              <p class="text-capitalize font-weight-bold">willie mays explains why the all-star game meant so much to his generation</p>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="images/image-47.jpg" alt="Image 43" class="card-img-top w-100"/>
+              <div class="d-flex justify-content-start py-2">
+                <p class="text-uppercase bg-red text-white font-weight-bold mr-2">cover</p>
+                <p class="text-uppercase text-red font-weight-bold">world</p>
+              </div>
+              <p class="text-capitalize font-weight-bold">judd apatow on pete devidson's 'brave' work in 'the king of staten island'</p>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="images/image-48.jpg" alt="Image 44" class="card-img-top w-100"/>
+              <div class="d-flex justify-content-start py-2">
+                <p class="text-uppercase bg-red text-white font-weight-bold mr-2">cover</p>
+                <p class="text-uppercase text-red font-weight-bold">world</p>
+              </div>
+              <p class="text-capitalize font-weight-bold">rocket men</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Section 11 - Editor's pick-->
+      <div class="row py-4">
+        <div class="col-sm-12 d-flex justify-content-center border border-left-0 border-top-0 border-right-0 border-secondary py-3">
+          <!--Newsweek logo 1-->
+          <div class="col-1 col-sm-1 col-md-1 col-lg-1 mr-5 mr-sm-4">
+            <svg class="newsweek-logo-1 mr-2" enable-background="new 0 0 29 28" version="1.1" viewBox="0 0 29 28" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <polygon class="st0" points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6"/>
+            </svg>
+          </div>
+          <h4 class="text-uppercase font-weight-bold">editor's pick</h4>
+        </div>  
+
+        <div class="container-fluid pt-4">
+          <div class="row">
+              <div class="col-md-6 col-lg-3">
+                <div class="background-image-container">
+                  <img src="images/image-49.jpg" alt="Image 49" class="background-images background-image-3 w-100 h-100"/>
+                </div>
+                
+                <h6 class="font-weight-bold text-capitalize pt-2">robert fuller's death probe petitions get more than 300,000 signatures</h6>
+                <p class="text-justify small">"Everything they told us is not right. We just want the truth," Fuller's sister Diamond Alexander said, "My brother was not suicidal. He was a survivor."</p>
+              </div>
+          
+              <div class="col-md-6 col-lg-3">
+                <div class="background-image-container">
+                  <img src="images/image-50.jpg" alt="Image 50" class="background-images background-image-3 w-100 h-100"/>
+                </div>
+                
+                <h6 class="font-weight-bold text-capitalize pt-2">GOP senator collins breaks with trump over roll back of LGBTQ protections</h6>
+                <p class="text-justify small">"The trump Administration's decision to eliminate protections for transgender patients is simply wrong," Collins said.</p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="background-image-container">
+                  <img src="images/image-51.jpg" alt="Image 51" class="background-images background-image-3 w-100 h-100"/>
+                </div>
+                
+                <h6 class="font-weight-bold text-capitalize pt-2">kim jong un's sister blasts bible-distributing defectors as 'mongrel dogs'</h6>
+                <p class="text-justify small">Kim Yo Jong referred to the defectos from North Korea as "human scum little short of wild animals who betrayed their own homeland."</p>
+              </div>
+          
+              <div class="col-md-6 col-lg-3">
+                <div class="background-image-container">
+                  <img src="images/image-52.jpg" alt="Image 52" class="background-images background-image-3 w-100 h-100"/>
+                </div>
+                
+                <h6 class="font-weight-bold text-capitalize pt-2">atlanta police chief resigns after rayshard brooks' death</h6>
+                <p class="text-justify small">Atlanta Mayor Keisha Lance Bottoms has accepted Erika Shields' resignation following a police-involved shooting death of a 27-year-old man Friday night.</p>
+              </div>
+          </div>
+        
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="background-image-container">
+                <img src="images/image-53.jpg" alt="Image 53" class="background-images background-image-3 w-100 h-100"/>
+              </div>
+              
+              <h6 class="font-weight-bold text-capitalize pt-2">the mafia's long-shot payout from a medical industry takeover</h6>
+              <p class="text-justify small">As the coronavirus spread across Italy and deeper into Europe, criminal groups worked their way into the health-care system.</p>
+            </div>
+        
+            <div class="col-md-6 col-lg-3">
+              <div class="background-image-container">
+                <img src="images/image-54.jpg" alt="Image 54" class="background-images background-image-3 w-100 h-100"/>
+              </div>
+              
+              <h6 class="font-weight-bold text-capitalize pt-2">baseball players' union rejects MLB's latest proposal to return</h6>
+              <p class="text-justify small">The Major League Baseball Players Association asked to hear a response from the league by end of business Monday.</p>
+            </div>
+        
+            <div class="col-md-6 col-lg-3">
+              <div class="background-image-container">
+                <img src="images/image-55.jpg" alt="Image 55" class="background-images background-image-3 w-100 h-100"/>
+              </div>
+              
+              <h6 class="font-weight-bold text-capitalize pt-2">treasure secretary hints another round of relief is coming</h6>
+              <p class="text-justify small">"It's something that we're very seriously considering," Steve Mnuchin said.</p>
+            </div>
+        
+            <div class="col-md-6 col-lg-3">
+              <div class="background-image-container">
+                <img src="images/image-56.jpg" alt="Image 56" class="background-images background-image-3 w-100 h-100"/>
+              </div>
+              
+              <h6 class="font-weight-bold text-capitalize pt-2">U.S secret service confirms pepper spray used for trump photo op</h6>
+              <p class="text-justify small">Though government officials previously claimes no chemical irritants were used to clear protesters from Lafayette Park for Donald Trump's photo as St. John's Church, the Secret Service now says an agent used pepper spray.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Section 14 - U.S Section-->
+      <section class="row my-2">
+        <h5 class="text-capitalize text-red font-weight-bold py-3 pl-4">u.S.</h5>
+
+        <div class="row mx-1">
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pt-4 pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media pt-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 15 - World Section-->
+      <section class="row my-2 px-3">
+        <h5 class="text-capitalize text-red font-weight-bold py-3 pl-4">world</h5>
+        
+        <div class="row mx-1">
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pt-4 pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media pt-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 16 - Business Section-->
+      <section class="row my-2 px-3">
+        <h5 class="text-capitalize text-red font-weight-bold py-3 pl-4">business</h5>
+        
+        <div class="row mx-1">
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pt-4 pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media pt-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 17 - Tech & Science Section-->
+      <section class="row my-2 px-3">
+        <h5 class="text-capitalize text-red font-weight-bold py-3 pl-4">tech &amp; science</h5>
+        
+        <div class="row mx-1">
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pt-4 pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media pt-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 18 - Culture Section-->
+      <section class="row my-2 px-3">
+        <h5 class="text-capitalize text-red font-weight-bold py-3 pl-4">culture</h5>
+        
+        <div class="row mx-1">
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pt-4 pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media pt-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section 19 - Sports Section-->
+      <section class="row my-2 px-3">
+        <h5 class="text-capitalize text-red font-weight-bold py-3 pl-4">sports</h5>
+        
+        <div class="row mx-1">
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="card col-sm-12 col-md-4 col-lg-4 border-0">
+            <img src="images/image-60.jpg" alt="Image 60" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h5>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media mb-2 border border-left-0 border-top-0 border-right-0 border-secondary pt-4 pb-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+
+            <div class="media pt-4">
+              <img src="images/image-60.jpg" alt="Image 60" class="w-25 h-25 d-flex mr-2"/>
+              <div class="media-body">
+                <h6 class="mt-0 font-weight-bold text-capitalize">BLM co-founder: 'the entire world is saying black lives matter now'</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Sections 12 & 13-->
+      <div class="row">
+        <!--Section 12 - Subscribe Section-->
+        <section class="py-4 section-12 col-md-12 col-lg-8 col-xl-8">
+          <h6 class="text-uppercase font-weight-bold text-danger">subscribe</h6>
+
+          <div class="d-sm-flex justify-content-sm-center subscribe-container d-md-none d-lg-none d-xl-none">
+            <div class="subscribe-images card-img-top d-flex justify-content-center">
+              <img src="images/image-57.jpg" alt="Image 57" class="subscribe-image-1"/>
+              <img src="images/image-58.jpg" alt="Image 58" class="subscribe-image-2"/>
+            </div>
+
+            <div class="subscribe-texts">
+              <h6 class="subscribe-text-1 text-dark text-capitalize font-weight-bold text-center">in-depth stories you don't see elsewhere about topics you want to read!</h6>
+      
+              <p class="subscribe-text-2 text-dark text-center">All Access + Weekly Delivery. <br>
+                Choose A Membership That's Perfect for You!</p>
+
+              <div class="d-flex justify-content-center subscribe-btn">
+                <a href="#" class="btn-2 text-light text-uppercase font-weight-bold text-align-center text-decoration-none">subscribe ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="subscribe-container d-none d-sm-none d-md-flex d-lg-flex d-xl-flex container-fluid">
+            <div class="row">
+              <div class="subscribe-images card-img-top d-flex justify-content-center col-md-6 col-lg-2 col-xl-2">
+                <img src="images/image-57.jpg" alt="Image 57" class="subscribe-image-1"/>
+                <img src="images/image-58.jpg" alt="Image 58" class="subscribe-image-2"/>
+              </div>
+
+              <div class="subscribe-texts col-md-6 col-lg-10 col-xl-10 pt-5">
+                <h6 class="subscribe-text-1 text-dark text-capitalize font-weight-bold">in-depth stories you don't see elsewhere about <br> topics you want to read!</h6>
+        
+                <p class="subscribe-text-2 text-dark">All Access + Weekly Delivery.</p>
+                <p class="subscribe-text-2 text-dark">Choose A Membership That's Perfect for You!</p>
+
+                <div class="d-flex justify-content-center subscribe-btn">
+                  <a href="#" class="btn-2 text-light text-uppercase font-weight-bold text-align-center text-decoration-none">subscribe ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Section 13 - Newsletter Section-->
+        <section class="py-4 col-md-12 col-lg-4 col-xl-4">
+          <h6 class="text-uppercase font-weight-bold text-danger">newsletter</h6>
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div class="d-sm-none d-md-block col-md-4 col-lg-6 col-xl-6">
+                <img src="images/image-59.png" alt="Image 58" class="w-100 h-100"/>
+              </div>
+              
+              <div class="col-md-8 col-lg-6 col-xl-6 border border-secondary bg-light-grey">
+                <h6 class="text-capitalize text-center text-md-left font-weight-bold mt-2">the starting 5</h6>
+
+                <p class="text-center text-md-left">See why nearly a quarter of a million subscribers begin their day with the Starting 5</p>
+      
+                <form action="/submit" method="post" name="form-1">
+                  <input type="text" name="email-1" placeholder="Email address" class="border border-secondary text-muted email-1 form-control form-control-sm"/><br>
+                  <input type="button" name="button-1" value="FREE SIGN UP >" class="small text-light font-weight-bold btn-1  border-0 py-2 px-5 w-100 mb-2"/>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="pl-3 pb-35">
+      <div class="d-sm-flex flex-sm-column align-content-start pl-1 d-md-flex flex-md-row justify-content-md-between footer-subsection-1">
+        <div>
+          <!--Newsweek logo for footer-->
+          <svg class="footer-newsweek-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg>
+
+          <small class="text-muted text-uppercase d-block d-sm-block d-md-inline">&copy; 2020 newsweek</small>
+        </div>
+
+        <div class="d-inline-flex pt-2 pl-2 pb-2 my-md-4">
+          <!--Icons made by https://www.flaticon.com/authors/pixel-perfect-->
+          <!--Facebook Icon-->
+          <svg class="facebook-logo mr-1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0"/>
+          </svg>
+
+          <!--Twitter icon-->
+          <svg class="twitter-logo ml-1 mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                  c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                  c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                  c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                  c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                  c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                  C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                  C480.224,136.96,497.728,118.496,512,97.248z"/>
+              </g>
+            </g>
+          </svg>
+
+          <!--Instagram icon-->
+          <svg class="instagram-logo mr-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+            <g id="XMLID_504_">
+              <path id="XMLID_505_" d="M38.52,0.012h222.978C282.682,0.012,300,17.336,300,38.52v222.978c0,21.178-17.318,38.49-38.502,38.49
+                H38.52c-21.184,0-38.52-17.313-38.52-38.49V38.52C0,17.336,17.336,0.012,38.52,0.012z M218.546,33.329
+                c-7.438,0-13.505,6.091-13.505,13.525v32.314c0,7.437,6.067,13.514,13.505,13.514h33.903c7.426,0,13.506-6.077,13.506-13.514
+                V46.854c0-7.434-6.08-13.525-13.506-13.525H218.546z M266.084,126.868h-26.396c2.503,8.175,3.86,16.796,3.86,25.759
+                c0,49.882-41.766,90.34-93.266,90.34c-51.487,0-93.254-40.458-93.254-90.34c0-8.963,1.37-17.584,3.861-25.759H33.35v126.732
+                c0,6.563,5.359,11.902,11.916,11.902h208.907c6.563,0,11.911-5.339,11.911-11.902V126.868z M150.283,90.978
+                c-33.26,0-60.24,26.128-60.24,58.388c0,32.227,26.98,58.375,60.24,58.375c33.278,0,60.259-26.148,60.259-58.375
+                C210.542,117.105,183.561,90.978,150.283,90.978z"/>
+            </g>
+          </svg>
+          
+          <!--Tumblr icon-->
+          <svg class="tumblr-logo mr-1" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="m19 22.594-1.175-3.425c-.458.214-1.327.399-1.968.419h-.091c-1.863 0-2.228-1.37-2.244-2.371v-7.47h4.901v-3.633h-4.883v-6.114h-3.575c-.059 0-.162.051-.176.179-.202 1.873-1.098 5.156-4.789 6.469v3.099h2.456v7.842c0 2.655 1.97 6.411 7.148 6.411l-.011-.002h.181c1.786-.03 3.783-.768 4.226-1.404z"/>
+          </svg>
+
+          <!--Linkedin icon-->
+          <svg class="linkedin-logo mr-3" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"/>
+            <path d="m.396 7.977h4.976v16.023h-4.976z"/>
+            <path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!--Footer links 1-->
+      <div class="footer-links-1">
+        <ul class="d-inline-flex justify-content-between">
+          <li class="text-muted font-weight-bold pr-1 small mt-1">Editions:</li>
+          <li><a href="#" class="text-muted text-uppercase pr-2 text-decoration-none small">u.s <span class="d-none d-md-inline text-muted">|</span></a></li>
+          <li><a href="#" class="text-muted text-capitalize pr-2 text-decoration-none small">edition <span class="d-none d-md-inline text-muted">|</span></a></li>
+          <li><a href="#" class="text-muted text-capitalize pr-2 text-decoration-none small">日本 <span class="d-none d-md-inline text-muted">|</span></a></li>
+          <li><a href="#" class="text-muted text-capitalize pr-2 text-decoration-none small">pakistan <span class="d-none d-md-inline text-muted">|</span></a></li>
+          <li><a href="#" class="text-muted text-capitalize pr-2 text-decoration-none small">polska <span class="d-none d-md-inline text-muted">|</span></a></li>
+          <li><a href="#" class="text-muted text-capitalize pr-2 text-decoration-none small">România</a></li>
+        </ul>
+      </div>
+
+      <!--Footer links 2-->
+      <div class="footer-links-2">
+        <ul class="d-flex d-sm-flex justify-content-sm-between d-md-flex justify-content-md-between d-lg-flex justify-content-lg-between">
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize pr-1 small">about us</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-inline">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize pr-1 small">corrections</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-inline">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize pr-1 small">contact us</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-inline">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize pr-1 small">editorial guidelines</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-inline">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize pr-1 small">advertise</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-inline">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize pr-1 small">copyright</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-inline">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize small">terms &amp; conditions</a>
+          <li><p class="text-muted d-none d-sm-none d-md-inline">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize d-none d-sm-none d-md-none d-lg-flex small">Privacy Policy</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-none d-lg-flex">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize d-none d-sm-none d-md-none d-lg-flex small">Cookie Policy</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-none d-lg-flex">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize d-none d-sm-none d-md-none d-lg-flex small">Terms of Sale</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-none d-lg-flex">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize d-none d-sm-none d-md-none d-lg-flex small">Archive</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-none d-lg-flex">|</p></li>
+          <li><a href="#" class="text-decoration-none text-muted text-capitalize d-none d-sm-none d-md-none d-lg-flex small">Announcements</a></li>
+          <li><p class="text-muted d-none d-sm-none d-md-none d-lg-flex">|</p></li>
+        </ul>
+      </div>
+
+      <!--Shows Consent preferences link in large screens-->
+      <div>
+        <ul>
+          <li><a href="#" class="d-none d-sm-none d-md-none d-lg-block text-muted text-decoration-none small">Consent Preferences<span class="d-none d-md-inline text-muted pl-2">|</span></a></li>
+        </ul>
+      </div>
+
+      <!--Footer links 3-->
+      <!--Shows these links in small and medium screens-->
+      <div class="footer-links-3">
+        <ul class="d-inline-flex justify-content-between d-lg-none">
+          <li ><a href="#" class="text-muted text-capitalize pr-2 text-decoration-none small">privacy policy</a></li>
+          <li><p class="d-none d-md-inline text-muted">|</p></li>
+          <li><a href="#" class="text-muted text-capitalize px-2 text-decoration-none small">cookie policy</a></li>
+          <li><p class="d-none d-md-inline text-muted">|</p></li>
+          <li><a href="#" class="text-muted text-capitalize px-2 text-decoration-none small">terms of sale</a></li>
+          <li><p class="d-none d-md-inline text-muted">|</p></li>
+          <li><a href="#" class="text-muted text-capitalize px-2 text-decoration-none small">archive</a></li>
+          <li><p class="d-none d-md-inline text-muted">|</p></li>
+          <li><a href="#" class="text-muted text-capitalize px-2 text-decoration-none small">announcements</a></li>
+          <li><p class="d-none d-md-inline text-muted">|</p></li>
+          <li><a href="#" class="text-muted text-capitalize px-2 text-decoration-none small">consent preferences</a></li>
+          <li><p class="d-none d-md-inline text-muted">|</p></li>
+        </ul>
+      </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

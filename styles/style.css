@@ -1,0 +1,407 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Styles for navbar 1 and navbar 2 and their elements */
+.navbar-1 {
+  background-color: #f72210;
+}
+
+.nav-newsweek {
+  fill: #fff;
+}
+
+.nav-subscribe-btn {
+  color: #000;
+  font-weight: 800;
+  font-size: 10px;
+  background-color: rgb(240, 240, 8);
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.nav-subscribe-btn:hover {
+  color: #000;
+}
+
+.nav-login-icon,
+.nav-menu-icon {
+  color: #e2dcdc;
+}
+
+.search,
+.background-image-container { /* For all background-images container */
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0.3rem;
+  right: 7.5rem;
+}
+
+/* Styles for main container elements */
+
+/* Styles for all sections */
+.sections {
+  padding-top: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles for Section 1 - Top Story section */
+.mini-container-1 {
+  position: absolute;
+  top: 334px;
+  width: 9%;
+}
+
+/* Styles for Section 2 - Featured Stories section */
+.mini-container-2 {
+  position: absolute;
+  top: 365px;
+  width: 9%;
+}
+
+.section-2-subsections { /* For all subsections of section 2 - Featured Stories */
+  padding-bottom: 2rem;
+}
+
+/* Styles for Section 3 - The Debate section */
+.flex-container-2 {
+  border-top: 0.3rem solid #f72210;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.border-line-1 {
+  border-top: 0.1rem solid #999;
+}
+
+.border-line-2 {
+  margin-top: 0.1rem;
+  border-bottom: 0.1rem solid #999;
+}
+
+.flex-container-3 {
+  border-bottom: 0.3rem solid #1c87fb;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+/* Styles for Section 4 - Opinion section */
+.section-4-border-top,
+.section-6-border-top { /* Styles for subsections in Section 4 and Section 6 */
+  border-top: 0.01rem solid #dbd8d8;
+}
+
+.section-4-subsections {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+/* Styles for Section 5 */
+.section-5-subsections,
+.section-6-subsections,
+.section-7-subsections,
+.section-8-subsections,
+.section-9-subsections,
+.section-10-subsections {  /* Styles for subsections in Section 5, Section 6, Section 7, Section 8, Section 9 and Section 10 */
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  width: 100%;
+}
+
+.background-image-15 {
+  position: relative;
+}
+
+.mini-container-3 {
+  position: absolute;
+  top: 373px;
+  width: 12rem;
+  height: 2rem;
+}
+
+.section-5-subsections-one {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/* Styles for Section 9 */
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bg-light-grey {
+  background-color: #e7e2e2;
+}
+
+.email-2 {
+  margin-top: 0.5rem;
+}
+
+.btn-1 {
+  background-color: rgb(255, 0, 0);
+}
+
+/* Styles for Section 10 */
+.bg-red {
+  background-color: rgb(255, 0, 0);
+  padding: 0.5rem;
+}
+
+.newsweek-logo-1 {
+  width: 40px;
+  height: 37px;
+  fill: #fff;
+  background-color: rgb(255, 0, 0);
+}
+
+.text-red {
+  color: rgb(255, 0, 0);
+}
+
+/* Styles for Section 12 */
+.section-12 {
+  position: relative;
+  height: 30rem;
+}
+
+.btn-2 {
+  background-color: rgb(255, 0, 0);
+  padding: 0.7rem;
+}
+
+/* Styles for footer */
+.footer-newsweek-logo {
+  fill: rgb(255, 0, 0);
+  width: 230px;
+  height: 110px;
+}
+
+.facebook-logo,
+.twitter-logo,
+.instagram-logo,
+.tumblr-logo,
+.linkedin-logo {
+  fill: #666;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footer-subsection-1 {
+  border-bottom: 0.05rem solid #cfcdcd;
+}
+
+/* Extra small screen size */
+@media only screen and (max-width: 575px) {
+  /* Styles for navbar 1 */
+  .navbar-1 {
+    background-color: #f72210;
+  }
+
+  .nav-newsweek {
+    fill: #fff;
+    width: 100px;
+    height: 80px;
+  }
+
+  .nav-subscribe-btn {
+    color: #000;
+    font-weight: 800;
+    font-size: 10px;
+    background-color: rgb(240, 240, 8);
+    padding: 0.5rem;
+    border-radius: 20px;
+  }
+
+  .nav-subscribe-btn:hover {
+    color: #000;
+  }
+
+  /* Section 12 */
+  .subscribe-images {
+    position: relative;
+    left: 10px;
+  }
+
+  .subscribe-image-1 {
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+
+  .subscribe-image-2 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+
+  .subscribe-texts {
+    position: absolute;
+    top: 260px;
+  }
+}
+
+/* Small screen size; sm; Mobile screen size */
+@media only screen and (max-width: 767px) {
+  .nav-newsweek {
+    fill: #fff;
+    width: 110px !important;
+    height: 80px;
+  }
+
+  /* Section 4 */
+  .section-4-img {
+    width: 73px;
+    height: 80px;
+  }
+
+  /* Section 12 */
+  .subscribe-images {
+    position: relative;
+    left: -50px;
+  }
+
+  .subscribe-image-1 {
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+
+  .subscribe-image-2 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+
+  .subscribe-texts {
+    position: absolute;
+    top: 260px;
+  }
+
+  /* Footer section */
+  .footer-links-1 {
+    font-size: 14px;
+  }
+
+  .footer-links-2 {
+    font-size: 11.5px;
+  }
+
+  .footer-links-3 {
+    font-size: 11.5px;
+  }
+}
+
+/* Medium screen size; md; Tablet screen size */
+@media only screen and (min-width: 768px) {
+  .nav-newsweek {
+    fill: #fff;
+    width: 110px !important;
+    height: 80px;
+  }
+
+  /* Section 12 */
+  .section-12 {
+    padding-right: 20px;
+    position: relative;
+  }
+
+  .subscribe-container .row {
+    position: absolute;
+    left: 390px;
+  }
+
+  .subscribe-images {
+    position: relative;
+    right: 250px;
+  }
+
+  .subscribe-image-1 {
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+
+  .subscribe-image-2 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+}
+
+/* Large screen size; lgl Laptop screen size */
+@media only screen and (min-width: 992px) {
+  .nav-newsweek {
+    fill: #fff;
+    width: 250px !important;
+    height: 80px;
+  }
+
+  /* Section 12 */
+  .section-12 {
+    padding-right: 20px;
+    position: relative;
+  }
+
+  .subscribe-container .row {
+    position: absolute;
+    left: 290px;
+  }
+
+  .subscribe-images {
+    position: relative;
+    right: 250px;
+  }
+
+  .subscribe-image-1 {
+    position: absolute;
+    left: 100px;
+    top: 48px;
+  }
+
+  .subscribe-image-2 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+
+  .subscribe-texts {
+    margin-left: 90px;
+  }
+
+  .subscribe-btn {
+    position: absolute;
+  }
+}
